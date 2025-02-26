@@ -1,0 +1,6 @@
+﻿services:
+  urlshortener.api:
+    image: urlshortener.api
+    build:
+      context: .
+      dockerfile: UrlShortener.Api/Dockerfile
